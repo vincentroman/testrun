@@ -102,7 +102,9 @@ header.top .left {
 
 header.top .left.active-initial::after {
   content: '';
-  background-color: #1BFF90;
+  background: -webkit-linear-gradient(50deg,#2096ff,#05ffa3)!important;
+    background: -o-linear-gradient(50deg,#2096ff,#05ffa3)!important;
+    background: linear-gradient(40deg,#2096ff,#05ffa3)!important;
   height: 3px;
   left: 0;
   width: 54px;
@@ -112,7 +114,9 @@ header.top .left.active-initial::after {
 
 header.top .left.active::after {
   content: '';
-  background-color: #1BFF90;
+  background: -webkit-linear-gradient(50deg,#2096ff,#05ffa3)!important;
+    background: -o-linear-gradient(50deg,#2096ff,#05ffa3)!important;
+    background: linear-gradient(40deg,#2096ff,#05ffa3)!important;
   height: 3px;
   left: 0;
   width: 54px;
@@ -269,7 +273,9 @@ a i {
   border: 1px solid lime;
   position: fixed;
   top: 70px;
-  background-color: #1BFF90;
+  background: -webkit-linear-gradient(50deg,#2096ff,#05ffa3)!important;
+    background: -o-linear-gradient(50deg,#2096ff,#05ffa3)!important;
+    background: linear-gradient(40deg,#2096ff,#05ffa3)!important;
   width: 174px;
   padding: 6px;
   text-transform: uppercase;
@@ -335,7 +341,9 @@ a i {
   left: -20px;
   top: 10px;
   position: relative;
-  background-color: #1BFF90; }
+  background: -webkit-linear-gradient(50deg,#2096ff,#05ffa3)!important;
+    background: -o-linear-gradient(50deg,#2096ff,#05ffa3)!important;
+    background: linear-gradient(40deg,#2096ff,#05ffa3)!important; }
 
 .photo-metadata {
   bottom: -34px;
@@ -461,7 +469,9 @@ a i {
   height: 80px;
   text-transform: uppercase;
   color: black;
-  background-color: #1bff90; }
+  background: -webkit-linear-gradient(50deg,#2096ff,#05ffa3)!important;
+    background: -o-linear-gradient(50deg,#2096ff,#05ffa3)!important;
+    background: linear-gradient(40deg,#2096ff,#05ffa3)!important; }
 
 .upload-form {
   height: 725px; }
@@ -537,7 +547,9 @@ a i {
   z-index: 300;
   height: 50px;
   width: 50px;
-  background-color: #1bff90;
+  background: -webkit-linear-gradient(50deg,#2096ff,#05ffa3)!important;
+    background: -o-linear-gradient(50deg,#2096ff,#05ffa3)!important;
+    background: linear-gradient(40deg,#2096ff,#05ffa3)!important;
   border-radius: 50%;
   box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.3), 0px 8px 25px 0px rgba(0, 0, 0, 0.4);
   display: flex;
@@ -592,14 +604,16 @@ a i {
   top: 150px;
   right: -3px;
   z-index: 999;
-  background-color: #cbbe2a;
+  background: -webkit-linear-gradient(50deg,#3aa2ff,#1fffac);
+  background: -o-linear-gradient(50deg,#3aa2ff,#1fffac);
+  background: linear-gradient(40deg,#3aa2ff,#1fffac);
   padding: 10px 20px;
   color: #fff;
   text-transform: uppercase;
   font-weight: 400; }
 
 .explore-grid {
-  background-color: #f3f3f3;
+  background-color: #f5f5f5;
   margin-top: 2px;
   min-height: 520px; }
 
@@ -638,7 +652,9 @@ a i {
   z-index: 1500;
   height: 50px;
   width: 50px;
-  background-color: #1bff90;
+  background: -webkit-linear-gradient(50deg,#2096ff,#05ffa3)!important;
+    background: -o-linear-gradient(50deg,#2096ff,#05ffa3)!important;
+    background: linear-gradient(40deg,#2096ff,#05ffa3)!important;
   border-radius: 50%;
   -webkit-box-shadow: 0 1px 6px rgba(0, 0, 0, 0.12), 0 1px 4px rgba(0, 0, 0, 0.12);
   -moz-box-shadow: 0 1px 6px rgba(0, 0, 0, 0.12), 0 1px 4px rgba(0, 0, 0, 0.12);
@@ -736,7 +752,9 @@ a i {
   -moz-border-radius: 10px;
   -webkit-border-radius: 10px;
   border-radius: 10px;
-  background-color: #1bff90;
+  background: -webkit-linear-gradient(50deg,#2096ff,#05ffa3)!important;
+    background: -o-linear-gradient(50deg,#2096ff,#05ffa3)!important;
+    background: linear-gradient(40deg,#2096ff,#05ffa3)!important;
   top: 0;
   right: 10px;
   position: absolute;
@@ -748,7 +766,9 @@ a i {
   position: relative; }
 
 .item.middle .indicator {
-  background-color: #1BFF90;
+  background: -webkit-linear-gradient(50deg,#2096ff,#05ffa3)!important;
+    background: -o-linear-gradient(50deg,#2096ff,#05ffa3)!important;
+    background: linear-gradient(40deg,#2096ff,#05ffa3)!important;
   height: 3px;
   position: absolute;
   bottom: -18px;
@@ -1101,14 +1121,16 @@ a i {
   float: right; }
 
 .following-activity .follow-btn button.following {
-  background-color: #1BFF90;
+  background: -webkit-linear-gradient(50deg,#2096ff,#05ffa3)!important;
+    background: -o-linear-gradient(50deg,#2096ff,#05ffa3)!important;
+    background: linear-gradient(40deg,#2096ff,#05ffa3)!important;
   border: none;
   box-shadow: 0px 2px 14px 0px rgba(0, 0, 0, 0.2); }
 
 .landing {
   height: 100%;
   width: 100%;
-  background-image: url("//react-example-app.imgix.net/defaults/landing.png?auto=enhance&fit=crop&fm=png&dpr=2");
+  background-image: url("https://img.news.gr/sa/santorini-3.jpg?v=20171006151609&x78465");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: 50% 50%;
