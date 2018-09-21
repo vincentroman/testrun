@@ -10,7 +10,7 @@ var env = new webpack.DefinePlugin({
 
 var plugins = [
 	new ExtractTextPlugin({
-		filename: './public/css/styles.css',
+		filename: './public/css/stylesbackup.css',
 		allChunks: true,
 	}),
 	new InlineEnviromentVariablesPlugin([
@@ -41,7 +41,7 @@ var plugins = [
 if (process.env.NODE_ENV == 'production') {
 	plugins = [
 		new ExtractTextPlugin({
-			filename: './public/css/styles.min.css',
+			filename: './public/css/stylesbackup.css',
 			allChunks: true,
 		}),
 		new webpack.optimize.UglifyJsPlugin({
