@@ -14,7 +14,21 @@ class Landing extends Component {
      * handleFBLogin
      * @param e event
      */
-	
+	handleFBLogin = e => {
+		e.preventDefault();
+		FB.login(
+			res => {
+				if (res.status === 'connected') {
+					window.location.reload();
+					return;
+				}
+			},
+			{
+				scope: 'public_profile,email',
+				auth_type: 'rerequest',
+			},
+		);
+	};
 
 	/**
      * render
